@@ -251,4 +251,14 @@ select{
         font-size:32px;
     }
 }
-    
+
+@media (max-width:768px){
+
+nav{
+display:flex;
+flex-direction:column;
+gap:15px;
+text-align:center;
+}
+
+}
