@@ -282,3 +282,16 @@ grid-template-columns:1fr;
 }
 
 }
+.call-button{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#d4af37;
+color:black;
+padding:15px 20px;
+font-weight:bold;
+text-decoration:none;
+border-radius:50px;
+z-index:9999;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
