@@ -213,6 +213,8 @@ grid-template-columns:1fr;
 
 nav{
 display:none;
+}
+
 select{
 width:100%;
 padding:15px;
@@ -220,8 +222,12 @@ margin-bottom:15px;
 border:none;
 border-radius:4px;
 font-size:16px;
-}
+background:white;
+height:52px;
 }
 
+  button:hover{
+opacity:0.9;
+transform:translateY(-2px);
+transition:0.3s;
 }
-
